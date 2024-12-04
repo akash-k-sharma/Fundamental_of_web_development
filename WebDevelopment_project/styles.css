@@ -1,0 +1,91 @@
+/* General Styles */
+/* Overall page settings */
+body {
+    font-family: Arial, sans-serif; /* Font style for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.6; /* Set line height for readability */
+    background-color: #f9f9f9; /* Light gray background for the page */
+    color: #333; /* Dark text color */
+}
+
+/* Navigation Menu */
+
+/* Style for the header section */
+header {
+    background-color: #333; /* Dark background for the navigation bar */
+    padding: 10px 0; /* Vertical padding for spacing */
+}
+
+/* Style for the navigation menu */
+.nav-menu {
+    display: flex; /* Display menu items in a row */
+    justify-content: center; /* Center-align the menu items */
+    list-style: none; /* Remove default bullet points from the list */
+    padding: 0; /* Remove padding */
+}
+
+/* Style for each navigation item */
+.nav-menu li {
+    margin: 0 15px; /* Add horizontal spacing between items */
+}
+
+/* Style for navigation links */
+.nav-menu a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underlines */
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+
+/* Hover effect for navigation links */
+.nav-menu a:hover {
+
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Recipe Card */
+
+/* Style for the recipe card section */
+.recipe-card {
+    max-width: 600px; /* Limit the card's width */
+    margin: 20px auto; /* Center the card with margin auto */
+    padding: 20px; /* Add spacing inside the card */
+    background-color: #fff; /* White background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Style for the recipe title */
+.recipe-card h1 {
+    text-align: center; /* Center the text */
+    color: #ff6347; /* Tomato red color */
+}
+
+/* Style for the recipe image */
+.recipe-image {
+    width: 100%; /* Make the image take the full width of the card */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Style for subheadings */
+h2 {
+    
+    border-bottom: 2px solid #ff6347; /* Red underline */
+    padding-bottom: 5px; /* Add spacing below the text */
+    margin-bottom: 10px; /* Add spacing between subheading and content */
+    color: #333; /* Dark text color */
+}
+
+/* Style for lists */
+ul, ol {
+    margin: 10px 0; /* Add vertical spacing */
+    padding-left: 20px; /* Add indentation for list items */
+}
+
+/* Style for the footer */
+footer {
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add spacing above the footer */
+    font-size: 0.9rem; /* Smaller font size */
+    color: #666; /* Light gray text color */
+}
